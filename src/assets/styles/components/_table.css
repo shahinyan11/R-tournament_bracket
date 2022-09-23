@@ -1,0 +1,37 @@
+.table .inputContainer {
+    height: 60px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.table .inputContainer input, .table .inputContainer button {
+    width: fit-content;
+}
+
+
+.table .tree {
+    display: flex;
+    padding: 10px;
+    max-height: calc(100vh - 60px);
+    max-width: 100vw;
+    position: relative;
+}
+
+.table .colum {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.table .winner-column {
+    align-self: center;
+}
+
+.table .players-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0;
+}

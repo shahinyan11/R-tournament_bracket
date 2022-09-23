@@ -1,0 +1,23 @@
+.line {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 100%;
+}
+
+.line .left{
+    height: 100%;
+    width: 5px;
+    border-bottom: 2px solid rebeccapurple;
+    border-top: 2px solid rebeccapurple;
+}
+.line .center{
+    height: 100%;
+    width: 2px;
+    background-color: rebeccapurple;
+}
+.line .right{
+    width: 5px;
+    height: 2px;
+    background-color: rebeccapurple;
+}
